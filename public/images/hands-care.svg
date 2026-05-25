@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f1e6"/>
+      <stop offset="1" stop-color="#d5c2a6"/>
+    </linearGradient>
+    <linearGradient id="skinA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9ad83"/>
+      <stop offset="1" stop-color="#a96f54"/>
+    </linearGradient>
+    <linearGradient id="skinB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a07a"/>
+      <stop offset="1" stop-color="#8f614f"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1000" fill="url(#paper)"/>
+  <circle cx="940" cy="190" r="270" fill="#b79255" opacity="0.15"/>
+  <circle cx="250" cy="780" r="320" fill="#0f382c" opacity="0.1"/>
+  <path d="M0 734c155-108 316-146 484-114 191 36 345 13 462-70 113-80 205-95 276-45v495H0z" fill="#0f382c" opacity="0.86"/>
+  <path d="M195 548c118-80 227-91 326-31 42 26 80 56 114 90 28 28 22 74-12 94-31 18-68 13-98-12l-69-58c-27-23-69-5-70 31-2 54 39 104 103 132 89 39 177 49 264 29 51-12 98 26 97 78-1 37-26 69-62 80-138 41-275 21-411-60-89-53-172-128-249-224-42-52-31-122 67-149z" fill="url(#skinA)"/>
+  <path d="M939 402c-127-64-251-66-372-6-53 26-104 62-151 108-34 33-31 88 7 116 36 27 85 25 119-5l91-79c30-26 78-7 82 33 7 68-31 124-115 167-63 32-128 47-195 45-54-2-95 44-89 98 5 38 33 69 70 78 160 38 306 6 438-96 71-55 136-127 195-217 46-71 16-190-80-242z" fill="url(#skinB)"/>
+  <path d="M367 678c59 63 130 103 213 120M695 644c-45 58-104 97-176 118M263 605c74 4 133 27 178 68M856 498c-78 6-143 35-194 88" fill="none" stroke="#704d3f" stroke-width="8" stroke-linecap="round" opacity="0.23"/>
+  <ellipse cx="615" cy="860" rx="360" ry="72" fill="#082a22" opacity="0.22" filter="url(#soft)"/>
+  <path d="M110 156h308M110 205h220M836 796h228M892 845h172" stroke="#b79255" stroke-width="10" stroke-linecap="round" opacity="0.42"/>
+</svg>

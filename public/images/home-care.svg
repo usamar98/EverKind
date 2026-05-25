@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eadcc5"/>
+      <stop offset="0.7" stop-color="#f7f1e6"/>
+      <stop offset="1" stop-color="#d2bfa2"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f382c"/>
+      <stop offset="1" stop-color="#1d5943"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="970" cy="152" r="190" fill="#b79255" opacity="0.17"/>
+  <path d="M0 692c121-63 244-79 369-48 153 38 301 33 445-15 146-49 275-36 386 40v231H0z" fill="#0f382c" opacity="0.9"/>
+  <path d="M264 324h626v416H264z" fill="url(#house)"/>
+  <path d="M206 335 577 112l371 223z" fill="#72443d"/>
+  <path d="M311 384h126v160H311zM724 384h126v160H724z" fill="#f7f1e6" opacity="0.74"/>
+  <path d="M372 384v160M311 464h126M787 384v160M724 464h126" stroke="#b79255" stroke-width="7" opacity="0.34"/>
+  <path d="M507 492h142v248H507z" fill="#efe2ce"/>
+  <circle cx="622" cy="621" r="9" fill="#b79255"/>
+  <path d="M180 740h842" stroke="#f7f1e6" stroke-width="18" stroke-linecap="round" opacity="0.48"/>
+  <path d="M144 796c275 52 574 52 896 0" stroke="#b79255" stroke-width="10" stroke-linecap="round" opacity="0.58"/>
+  <path d="M112 583c40-105 100-105 140 0M934 572c54-139 134-139 188 0" fill="none" stroke="#6f8260" stroke-width="23" stroke-linecap="round"/>
+  <rect x="96" y="604" width="176" height="22" rx="11" fill="#6f8260"/>
+  <rect x="900" y="596" width="232" height="24" rx="12" fill="#6f8260"/>
+</svg>
